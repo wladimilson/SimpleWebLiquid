@@ -1,0 +1,28 @@
+<p>
+    <a href="/Pessoa/Create">Adicionar pessoa</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Nome
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for p in Model %}
+        <tr>
+            <td>
+                {{ p.Id }}
+            </td>
+            <td>
+                {{ p.Nome }}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ ViewData['Title'] }}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    </head>
+	<body>
+        <header>
+            <nav class="navbar navbar-expand-sm nnavbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container">
+                    Exemplo de Liquid
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+            {% renderbody %}
+            </main>
+        </div>	
+
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2020 - Treinaweb
+            </div>
+        </footer>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	</body>
+</html>
